@@ -7,6 +7,7 @@ import 'package:porviders/provider/controller/value_controller.dart';
 import 'package:porviders/provider/view/provider_them_screen.dart';
 import 'package:porviders/textfomfild.dart';
 import 'package:porviders/ui_one/presentation/ui_one_screen.dart';
+import 'package:porviders/ui_one/wrip_widget.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
             title: 'Theme',
             themeMode: themController.themeMode, // Dynamically switch theme mode
             debugShowCheckedModeBanner: false,
-            home: UiOneScreen(),
+            home: WripWidget(),
           );
         },
       ),
