@@ -10,6 +10,8 @@ import 'package:porviders/ui_one/presentation/ui_one_screen.dart';
 import 'package:porviders/ui_one/wrip_widget.dart';
 import 'package:provider/provider.dart';
 
+import 'data/view/data_models_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -39,7 +41,7 @@ class MyApp extends StatelessWidget {
             title: 'Theme',
             themeMode: themController.themeMode, // Dynamically switch theme mode
             debugShowCheckedModeBanner: false,
-            home: WripWidget(),
+            home: DataModelsScreen(),
           );
         },
       ),
