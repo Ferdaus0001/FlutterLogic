@@ -10,20 +10,7 @@ class ProviderCountScreen extends StatefulWidget {
   @override
   State<ProviderCountScreen> createState() => _ProviderCountScreenState();
 }
-
 class _ProviderCountScreenState extends State<ProviderCountScreen> {
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   super.initState();
-  //   final countProvider = Provider.of<CountProvider>(context,listen: false);
-  //   Timer.periodic(Duration(seconds: 1), (Timer){
-  //     countProvider.setCount();
-  //   });
-  //
-  //
-  // }
-  // final count;
    @override
   Widget build(BuildContext context) {
  final countProvider = Provider.of<CountProvider>(context,listen: false);

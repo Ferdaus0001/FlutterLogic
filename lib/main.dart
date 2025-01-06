@@ -5,11 +5,13 @@ import 'package:porviders/provider/controller/favourt_countroller.dart';
 import 'package:porviders/provider/controller/them_controller.dart';
 import 'package:porviders/provider/controller/value_controller.dart';
 import 'package:porviders/provider/view/provider_them_screen.dart';
+import 'package:porviders/shimmero_effict/shimmero_effict_screen.dart';
 import 'package:porviders/textfomfild.dart';
 import 'package:porviders/ui_one/presentation/ui_one_screen.dart';
 import 'package:porviders/ui_one/wrip_widget.dart';
 import 'package:provider/provider.dart';
 
+import 'cached_network_image.dart';
 import 'data/view/data_models_screen.dart';
 
 void main() {
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
             title: 'Theme',
             themeMode: themController.themeMode, // Dynamically switch theme mode
             debugShowCheckedModeBanner: false,
-            home: DataModelsScreen(),
+            home: CachedNetworkImages(),
           );
         },
       ),

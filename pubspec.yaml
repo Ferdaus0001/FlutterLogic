@@ -42,10 +42,19 @@ dependencies:
   loading_more_list: ^7.1.0
   http:
   velocity_x: ^4.2.1
+  flutter_gen:
+  google_fonts: ^6.2.1
+  image_blur:
+  cached_network_image: ^3.4.1
+  dio: ^5.7.0
 
+  shimmer: ^3.0.0
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
+  build_runner:
+  flutter_gen_runner:
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
