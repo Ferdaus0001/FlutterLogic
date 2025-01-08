@@ -6,11 +6,11 @@ class PaddingHelper extends StatelessWidget {
   final double? verticalPadding;    // Vertical Padding
 
   const PaddingHelper({
-    Key? key,
+    super.key,
     this.child,
     this.horizontalPadding = 5.0,  // Default horizontal padding
     this.verticalPadding = 1.0,    // Default vertical padding
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

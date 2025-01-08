@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:slide_countdown/slide_countdown.dart';
 
 class CountdownPage extends StatelessWidget {
+  const CountdownPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,8 +28,8 @@ class CountdownPage extends StatelessWidget {
             separatorType: SeparatorType.symbol,
              infinityCountUp: true,
             replacement:  CircleAvatar(
-              child: Text('Time OUT',style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold,),),
-              radius: 50,backgroundImage: NetworkImage('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngkey.com%2Fdetail%2Fu2q8i1e6t4o0q8r5_time-icon-time-icon-png-pink%2F&psig=AOvVaw1pu4Qv-xeLAKgQm9qEaXaG&ust=1736324719720000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjqkoeY44oDFQAAAAAdAAAAABAE'),),
+              radius: 50,backgroundImage: NetworkImage('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngkey.com%2Fdetail%2Fu2q8i1e6t4o0q8r5_time-icon-time-icon-png-pink%2F&psig=AOvVaw1pu4Qv-xeLAKgQm9qEaXaG&ust=1736324719720000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjqkoeY44oDFQAAAAAdAAAAABAE'),
+              child: Text('Time OUT',style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold,),),),
           ),
         ),
       ),

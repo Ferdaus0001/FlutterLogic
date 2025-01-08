@@ -1,5 +1,4 @@
 
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:porviders/provider/controller/image_picker_controller.dart';

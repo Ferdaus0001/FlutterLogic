@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:porviders/provider/controller/them_controller.dart';
 import 'package:porviders/provider/custom_widget/custom_appbar.dart';
 import 'package:porviders/provider/custom_widget/custom_button.dart';
-import 'package:porviders/provider/custom_widget/custom_text.dart';
-import 'package:porviders/provider/models/prodts.dart';
-import 'package:porviders/provider/view/provider_home_screens.dart';
 import 'package:provider/provider.dart';
 
 import '../custom_widget/customTextFormFild.dart';
@@ -95,11 +91,11 @@ class _ProviderThemScreenState extends State<ProviderThemScreen> {
               Get.snackbar('title', 'message');
             },
           width: 400,
-            child:    Center(child: Text('Tap',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white),)),
             backroundColor: Colors.green,
             height: 60,
             broderColor: Colors.white,
             radius: 11,
+            child:    Center(child: Text('Tap',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white),)),
 
           ),
 

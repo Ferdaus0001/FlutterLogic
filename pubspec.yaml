@@ -18,7 +18,7 @@ dependencies:
   image_picker: ^1.1.2
   loading_more_list: ^7.1.0
 
-  velocity_x: ^4.2.1
+
   flutter_gen: ^4.1.0
   google_fonts: ^6.2.1
   image_blur: ^1.0.0
@@ -32,6 +32,11 @@ dependencies:
   slide_countdown: ^2.0.2
   timeline_tile: ^2.0.0
   scratcher: ^2.5.0
+  url_launcher: ^6.3.1
+  animated_text_kit: ^4.2.2
+  photo_view: ^0.15.0
+  animated_background: ^2.0.0
+
 
 dev_dependencies:
   flutter_test:

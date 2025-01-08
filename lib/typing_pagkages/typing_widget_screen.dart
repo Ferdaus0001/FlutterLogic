@@ -1,5 +1,4 @@
 
-    import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:porviders/helper/ui_helper_widget.dart';
 import 'package:typing_text_animation/typing_text_animation.dart';

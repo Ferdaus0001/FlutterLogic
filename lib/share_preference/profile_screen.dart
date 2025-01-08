@@ -46,17 +46,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
               AvatarGlow(
                 glowColor: Colors.blue,
                 duration: Duration(seconds: 3),
+                endRadius: 01,
                 child: Material(     // Replace this child with your own
                   elevation: 8.0,
                   shape: CircleBorder(),
                   child: CircleAvatar(
 
                     backgroundColor: Colors.black45,
+                    radius: 50.0,
                     child: Image.asset(
                       'assets/BED5A90B-D4BB-4293-9821-AA6128AC91C2 1.png',
                       height: 50,
                     ),
-                    radius: 50.0,
                   ),
                 ),
               ),

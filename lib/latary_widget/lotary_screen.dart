@@ -2,6 +2,8 @@
 import 'package:scratcher/widgets.dart';
 
 class ScratchScreen extends StatelessWidget {
+  const ScratchScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

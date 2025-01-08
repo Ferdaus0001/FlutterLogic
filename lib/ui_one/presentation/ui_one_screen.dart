@@ -1,7 +1,6 @@
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:porviders/helper/ui_helper_widget.dart';
 import 'package:image_blur/image_blur.dart';
@@ -62,6 +61,7 @@ class _UiOneScreenState extends State<UiOneScreen> {
 
                AvatarGlow(
                  glowColor: Colors.blue,
+                 endRadius: 0.1,
                  child: Container(
                    decoration: BoxDecoration(
                        borderRadius: BorderRadius.circular(221),

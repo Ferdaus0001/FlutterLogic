@@ -21,6 +21,12 @@ class CustomWripeWidget extends StatelessWidget {
             children: [
               Container(
 
+                decoration: BoxDecoration(
+                    color: Color(0xffff8f9f9),
+                    border: Border.all(color: Color(0xFF900C3F)),
+                    borderRadius: BorderRadius.circular(111)
+                ),
+
                 child: Row(
                   children: [
                     SizedBox(width: 8,),
@@ -29,13 +35,6 @@ class CustomWripeWidget extends StatelessWidget {
                     Text(title?? 'text'),
                     IconButton(onPressed: (){}, icon:  icon ?? Icon(Icons.person)),
                   ],
-                ),
-
-
-                decoration: BoxDecoration(
-                    color: Color(0xFFff8f9f9),
-                    border: Border.all(color: Color(0xFF900C3F)),
-                    borderRadius: BorderRadius.circular(111)
                 ),
               )
             ],

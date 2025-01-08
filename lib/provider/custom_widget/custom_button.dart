@@ -20,7 +20,6 @@ class _CustomButtonState extends State<CustomButton> {
     return  GestureDetector(
       onTap: widget.onTap,
       child: Container(
-        child: widget.child,
         height: widget.height?? 50 ,
         width:widget.width ?? 360 ,
         decoration: BoxDecoration(
@@ -29,6 +28,7 @@ class _CustomButtonState extends State<CustomButton> {
         color: widget.backroundColor ?? Colors.blue,
           borderRadius:BorderRadius.circular(widget.radius?? 2),
         ),
+        child: widget.child,
       ),
     );
   }
